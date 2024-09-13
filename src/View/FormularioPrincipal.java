@@ -1042,7 +1042,7 @@ public class FormularioPrincipal extends javax.swing.JFrame {
 
                         strCupom = arrMsg[15].replace("CAMPO122=", "").replace("|", "\n").replace("CORTAR", "\n-------------------------------\n");
                         var auxCupom = strCupom + "-------------------------------\n\n";
-                        nsuRet = arrMsg[6].replace("CAMPO0133=", "");
+                        nsuRet = arrMsg[5].replace("CAMPO0133=", "");
                     }
                     if (arrMsg.length == 2) {
                         var aux = arrMsg[1].split("=");
